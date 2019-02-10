@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+class Test       //class declaration
+ {
+  public:        //access modifier
+  string name;
+   void funct()   //function declaration
+   {
+     cout<<"ENTERED NAME IS"<<name;
+   }
+ };
+ void main()
+{
+   Test t1,t2;    //object created
+   t1.name= "CSESA";
+   t2.name="INCODE WE TRUST";
+   t1.funct();    //function call
+   t2.funct();
+}

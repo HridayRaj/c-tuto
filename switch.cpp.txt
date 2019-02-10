@@ -1,0 +1,36 @@
+//illustration of switch case
+#include<conio.h>
+#include<iostream.h>
+void main()
+{
+ clrscr();
+ char op;
+ float n1,n2;
+ cout<<"Select Operation :";
+ cin>>op;
+ cout<<"Enter two numbers :";
+ cin>>n1>>n2;
+ switch(op)
+ {
+   case '+':
+	cout<<n1+n2;
+	break;
+   case '-':
+	cout<<n1-n2;
+	break;
+   case '*':
+	cout<<n1*n2;
+	break;
+   case '/':
+	cout<<n1/n2;
+	break;
+   case '%':
+	cout<<n1%n2;
+	break;
+   default:
+	//execute if none of the above operation is selected
+	cout<<"Error";
+	break;
+ }
+ getch();
+}

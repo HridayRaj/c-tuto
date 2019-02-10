@@ -1,0 +1,20 @@
+//hello world in C
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  printf("Hello World");
+  getch();
+}
+
+
+//hello world in C++
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+  cout<<"Hello World";
+  getch();
+}

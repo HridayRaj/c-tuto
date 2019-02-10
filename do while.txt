@@ -1,0 +1,17 @@
+//illustration of do while loop
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+ clrscr();
+ int i=1;
+ do
+ {
+  cout<<"The value of i:"<<i<<endl;
+  i++;
+ }while(i<=5);
+
+ getch();
+}

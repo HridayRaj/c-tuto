@@ -1,0 +1,14 @@
+//illustration of while loop
+#include<conio.h>
+#include<iostream.h>
+void main()
+{
+ clrscr();
+ int i=1;
+ while(i<=5)
+ {
+  cout<<"The value of i:"<<i<<endl;
+  i++;
+ }
+ getch();
+}

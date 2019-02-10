@@ -1,0 +1,33 @@
+//illustration of if-else statement
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+  clrscr();
+  int a=10,b=20,c=5;
+  if(a>b)
+  {
+    if(a>c)
+    {
+      cout<<"a is the largest";
+    }	
+    else
+    {
+      cout<<"c is the largest";
+    }
+  }
+  else
+  {
+    if(b>c)
+    {
+      cout<<"b is the largest";
+    }
+    else
+    {
+      cout<<"c is the largest";
+    }
+  }
+  getch();
+}

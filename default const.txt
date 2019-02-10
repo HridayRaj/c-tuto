@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h> 
+
+class Test
+ {
+   int x;
+   public:
+   Test()     //constructor declared 
+    {
+     x=9000;
+   } 
+};
+void main()
+ {
+   clrscr();
+   Test t1,t2;
+   cout<<“x=”<<t1.x<<endl;
+   cout<<“x=”<<t2.x;
+   getch();
+ }
