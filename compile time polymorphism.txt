@@ -22,6 +22,7 @@ int main()
 	cout<<"Output: "<<obj.sum(10, 20)<<endl;	//This will call the second function 
 	cout<<"Output: "<<obj.sum(11, 22, 33);
 	return 0;
+	//return 0;
 }
 
 
